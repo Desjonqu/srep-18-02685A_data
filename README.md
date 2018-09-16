@@ -1,2 +1,13 @@
 # srep-18-02685A_data
 Data associated with the paper "Acoustic communities reflects lateral hydrological connectivity in riverine floodplain similarly to macro invertebrate communities" in Scientific Reports
+
+This project is composed of 4 datasets which were analysed in the paper and used to obtain our results. The paper is available in open access at: (coming soon, the paper is accepted but in press).
+
+The four datasets consist of:
+acoustic_presence-absence_matrix.csv: a presence-absence matrix of 129 columns and 30 lines. Lines correspond to each site on one day (5 days x 6 sites). The first columns gives the site and date of recording (for example BEARAV_20140620 was recorded in the site BEARAV on 20/06/2014). The other 128 columns indicate the presence (1) or absence (0) of the 128 sound types at one site and on one day. This dataset was used to obtain the bCA (Figure 2).
+
+macroinvertebrate_abundance_matrix.csv: an abundance matrix of 143 columns and 36 lines. Lines correspond to one site and one location within a site and one season (3 locations x 2 seasons x 6 sites). The first three columns give the site, location (1-4) and season of recording (spring or summer). The other 142 columns indicate the abundance of the 142 macroinvertebrates collected at  one site, one location within the site and one season. This dataset was used to obtain the bPCA (Figure 3).
+
+acoustic-communities.csv: a dataset of 12 columns and 30 lines. Lines correspond to each site on one day (5 days x 6 sites). The first column gives the site and date of recording (for example BEARAV_20140620 was recorded in the site BEARAV on 20/06/2014). The next three columns contain the first three bCA axes for acoustic communities (bCA1, bCA2, bCA3), then the site, the date (20140620=20/06/2014), the daily variation in temperature of a site compared to the average site temperature, the average temperature of a site, the scaled and centered versions of within.temperature and	between.temperature, the scaled and centered site connectivity and the raw site connectivity. This dataset was used to obtain Figure 4 and for the statistical models. 
+
+acoustic-communities.csv: a dataset of 9 columns and 36 lines. Lines correspond to one site and one location within a site and one season (3 locations x 2 seasons x 6 sites). The first three columns contain the first three bPCA axes for macroinvertebrate communities (bPCA1, bPCA2, bPCA3), then the site, the season, the raw site connectivity, the scaled and centered site connectivity, the centered and scaled site average temperature and the average site temperature. This dataset was used to obtain Figure 4 and for the statistical models. 
